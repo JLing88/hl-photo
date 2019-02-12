@@ -5,7 +5,7 @@ describe 'As a visitor' do
     it 'displays a nav bar with links for Home, About, Our Work, Contact' do
       visit '/'
 
-      within('.navbar') do
+      within('nav') do
         expect(page).to have_link('Home')
         expect(page).to have_link('About')
         expect(page).to have_link('Our Work')
