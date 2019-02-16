@@ -27,6 +27,10 @@ nav > ul {
   flex: 1;
 }
 
+.submit-button {
+  text-align: center;
+}
+
 @media all and (max-width: 600px) {
   .container {
     flex-wrap: wrap;
